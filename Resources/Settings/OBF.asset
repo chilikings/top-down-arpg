@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ccf946605ae0645a2945a7ad70c1c9, type: 3}
+  m_Name: OBF
+  m_EditorClassIdentifier: 
+  _targetAlpha: 0.2
+  _OutDuration: 0.5
+  _InDuration: 1
+  _weightToFade: 1
+  _rendering: 0
+  _rayUpdate: 2
+  _deltaTime: 0
+  _layers:
+    serializedVersion: 2
+    m_Bits: 1792
+  _rayTarget: {fileID: 609778013121384657, guid: fb33f433fadd9d14393707d72387f2fc, type: 3}
+  _ray: {fileID: 857503086715436529, guid: a59d4e36b60030243bce37ee10c3c5c6, type: 3}
+  _onHit: {fileID: 11400000, guid: cc43dbcefce5e064db2a580bdc5acf9c, type: 2}
+  _normalColor: {r: 1, g: 0.75224686, b: 0, a: 1}
+  _hittedColor: {r: 1, g: 0, b: 0, a: 1}

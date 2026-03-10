@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df5733d37981fa841a48953ca26f5e78, type: 3}
+  m_Name: CM3
+  m_EditorClassIdentifier: 
+  _blendDistance: 20
+  _minBlendTime: 0.5
+  _maxBlendTime: 1.5
+  _panSensitivity: 1400
+  _zoomSensitivity: 0.5
+  _damping: {x: 0.5, y: 1, z: 0.5}
+  _zoomLerp: 10
+  _tiltLerp: 10
+  _iniDistFactor: 0.7
+  _tiltDistFactor: 0.3
+  _maxTiltAngle: 50
+  _minTiltAngle: 25
+  TinyLimits: {x: 2, y: 10}
+  SmallLimits: {x: 4, y: 14}
+  MediumLimits: {x: 6, y: 22}
+  LargeLimits: {x: 7, y: 27}
+  GiantLimits: {x: 8, y: 30}
